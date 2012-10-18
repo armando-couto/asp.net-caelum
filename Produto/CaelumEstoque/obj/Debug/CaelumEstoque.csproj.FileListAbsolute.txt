@@ -1,0 +1,21 @@
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\obj\Debug\ResolveAssemblyReference.cache
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+c:\users\victor\documents\visual studio 2010\Projects\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+C:\Users\victor\Documents\Visual Studio 2010\Projects\CaelumEstoque\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\bin\CaelumEstoque.dll
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\bin\CaelumEstoque.pdb
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\bin\EntityFramework.dll
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\bin\EntityFramework.xml
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+Z:\Projetos e Drivers\Workspace Projetos\ASP.NET_Caelum\Produto\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
