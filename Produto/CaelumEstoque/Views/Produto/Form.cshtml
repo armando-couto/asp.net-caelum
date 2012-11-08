@@ -1,15 +1,21 @@
 ﻿<form action="/Produto/Adiciona" method="post">
-    <label>Nome: <input name="produto.Nome" /></label>
-    <label>Preco: <input name="produto.Preco" /></label>
-    <label>Quantidade: <input name="produto.Quantidade" /></label>
-    <label>Descricao: <input name="produto.Descricao" /></label>
-    <label>
-        Categoria:
-        <select name="produto.Categoria.Id">
-            @foreach(var categoria in Model) {
-                <option value="@categoria.Id">@categoria.Nome</option>
-            }
-        </select>
-    </label>
-    <input type="submit" />
+@Html.AntiForgeryToken()
+<label>Nome: <input name="produto.Nome" /></label>
+@Html.ValidationMessage("produto.Nome")
+<label>Preco: <input name="produto.Preco" /></label>
+@Html.ValidationMessage("produto.Preco")
+<label>Quantidade: <input name="produto.Quantidade" /></label>
+@Html.ValidationMessage("produto.Quantidade")
+<label>Descricao: <input name="produto.Descricao" /></label>
+@Html.ValidationMessage("produto.Descricao")
+<label>
+Categoria:
+<select name="produto.Categoria.Id">
+@foreach(var categoria in Model) {
+<option value="@categoria.Id">@categoria.Nome</option>
+}
+</select>
+@Html.ValidationMessage("produto.Categoria")
+</label>
+<input type="submit" />
 </form>

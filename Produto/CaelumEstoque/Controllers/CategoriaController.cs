@@ -28,9 +28,18 @@ namespace CaelumEstoque.Controllers
         [HttpPost]
         public ActionResult Adiciona(CategoriaDoProduto categoria)
         {
-            CategoriaDao dao = new CategoriaDao();
-            dao.Salva(categoria);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                CategoriaDao dao = new CategoriaDao();
+                dao.Salva(categoria);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                CategoriaDao categoriaDao = new CategoriaDao();
+                List<CategoriaDoProduto> categorias = categoriaDao.Lista();
+                return View("Form", categorias);
+            }
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CaelumEstoque.Dao;
+using CaelumEstoque.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -20,7 +22,16 @@ namespace CaelumEstoque
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            routes.MapRoute(
+                "ListaProdutos",
+                "produtos",
+                new { controller = "Produto", action = "Index" }
+            );
+            routes.MapRoute(
+                "VisualizaProduto",
+                "produtos/{id}",
+                new { controller = "Produto", action = "Visualiza" }
+            );
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
@@ -36,5 +47,16 @@ namespace CaelumEstoque
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
         }
+
+        
+        //public ActionResult RecuperaSenha(String email)
+        //{
+        //    UsuarioDao dao = new UsuarioDao();
+        //    Usuario usuario = dao.BuscaPorEmail(email);
+        //    GeraNovaSenha(usuario);
+        //   dao.Atualiza(usuario);
+        //    EnviaNovaSenhaParaOEmailDoUsuario(usuario);
+        //    return View();
+        //}
     }
 }
